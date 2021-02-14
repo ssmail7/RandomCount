@@ -1,4 +1,4 @@
-//***************************************************************
+//**************************************************************
 // Written by Steven Smail for COP3331
 //
 // fileIOmain.cpp (Project 5)
@@ -6,11 +6,16 @@
 // This program prompts the user for a filename to read (in this
 // case "Random.txt"), counts the number of random values in the
 // file, and returns the sum and average of the numbers.
-//***************************************************************
-#include <iostream>
+//**************************************************************
+
+#include <iostream>
 #include <fstream>
 #include <string>
-#include <iomanip>using namespace std;int main(){
+#include <iomanip>
+using namespace std;
+
+int main()
+{
   ifstream inFile;
   string filename;
   int count{0};
